@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Dinosaurio Bailando</title>
+  <style>
+    body {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .dino {
+      font-size: 100px;
+      animation: dance 0.5s infinite alternate;
+    }
+    @keyframes dance {
+      0% { transform: rotate(-10deg) scale(1.0); }
+      100% { transform: rotate(10deg) scale(1.1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="dino">🦖</div>
+</body>
+</html>
+
+ 
